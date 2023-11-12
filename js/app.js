@@ -12,7 +12,7 @@ const validateInputs = () => {
   let validRegex =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-  if (!email.value.match(validRegex)) {
+  if (!email.value.match(validRegex) && email.value.trim() === "") {
     error(email, "Valid email required");
   } else {
     setDefault(email);
