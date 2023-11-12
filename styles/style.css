@@ -13,6 +13,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+.text-side-content {
+  display: flex;
+}
+
 .container {
   width: 1440px;
   display: flex;
@@ -52,7 +64,7 @@ body {
 }
 
 .text-side li {
-  padding: 5px 0px;
+  margin: 15px 0 0 15px;
 }
 
 .email-form {
@@ -71,8 +83,12 @@ label {
 }
 
 .success-img {
-  width: 30px;
-  padding-right: 10px;
+  width: 20px;
+  margin-top: 15px;
+}
+.success-imgs {
+  display: flex;
+  flex-direction: column;
 }
 
 .email-input {
@@ -81,6 +97,7 @@ label {
   border-radius: 5px;
   border: 1px solid hsl(231, 7%, 60%);
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .message {
@@ -113,4 +130,74 @@ label {
 
 .sub-button:hover {
   background-color: hsl(234, 12%, 32%);
+}
+
+@media only screen and (max-width: 376px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .signup-card {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .text-side {
+    width: 90%;
+  }
+
+  .text-content {
+    margin-left: 20px;
+  }
+
+  .text-side h1 {
+    padding-bottom: 5px;
+    font-size: 40px;
+  }
+
+  .success-img {
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+
+  .text-side ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .text-side li {
+    margin-top: 0px;
+  }
+
+  .email-form {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .email-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sub-button {
+    width: 100%;
+  }
+
+  .illustration {
+    width: 100vw;
+  }
 }

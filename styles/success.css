@@ -58,3 +58,48 @@ body {
 .dismiss-button:hover {
   background-color: hsl(234, 12%, 32%);
 }
+
+@media only screen and (max-width: 376px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .content {
+    height: 100vh;
+    border-radius: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    margin: 20px 0;
+  }
+
+  .content p {
+    margin: 20px 0;
+  }
+
+  .content img {
+    margin-top: 100px;
+  }
+
+  .dismiss-button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
