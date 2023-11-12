@@ -30,12 +30,6 @@ Users should be able to:
 
 ![image](https://github.com/vanikonozadze/Newsletter-Sign-Up-Form/assets/115501603/8ab9f4a7-ee06-4d15-b838-87074e3b7bc7)
 
-![image](https://github.com/vanikonozadze/Newsletter-Sign-Up-Form/assets/115501603/0bad5906-2138-434c-ae89-a54799e7437a)
-
-![image](https://github.com/vanikonozadze/Newsletter-Sign-Up-Form/assets/115501603/dd588728-3060-4371-ab17-1b2a92cccfab)
-
-![image](https://github.com/vanikonozadze/Newsletter-Sign-Up-Form/assets/115501603/08f25e58-217b-4a0d-884f-a52af334f447)
-
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-with-success-message-solution-SZ3VHZwD9B
